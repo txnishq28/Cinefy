@@ -7,8 +7,8 @@ function App() {
   return (
     <>
      <div className="flex flex-col min-h-screen">
+     <Header/>
       <main className="flex-grow">
-      <Header/>
         <Routes>
           <Route path="/" element={<h1>Home Page</h1>}/>
           <Route path="/profile/:id" element={<h1>Profile Page</h1>}/>
