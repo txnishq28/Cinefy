@@ -4,6 +4,8 @@ Welcome to the **Cinefy** tutorial series – your ultimate guide to building a 
 
 This system includes advanced features like **concurrent seat locking**, **real-time UI updates**, and **theatre-wise show grouping** – inspired by platforms like **BookMyShow**.
 
+![Cinefy](image.png)
+
 
 
 ## 📋 Flow Chart for Project Structure:
