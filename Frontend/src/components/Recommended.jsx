@@ -4,9 +4,15 @@ const Recommended = ({ movies }) => {
   return (
     <div className="w-full py-6 bg-gray-900">
       <div className="max-w-screen-xl mx-auto px-4">
-      <h2 className='text-2xl font-semibold mb-6 text-white'>
+      <div className="items-center flex justify-between mb-4">
+        <h2 className='text-2xl font-semibold text-white'>
         Recommended Movies
       </h2>
+
+      <span className="text-md text-purple-400 cursor-pointer hover:underline hover:text-purple-600">
+        See All
+      </span>
+      </div>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {movies?.map((movie, i) => (
