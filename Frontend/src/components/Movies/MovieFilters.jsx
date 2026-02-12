@@ -43,7 +43,7 @@ const MovieFilters = ({ languages = [] }) => {
         </div>
       </div>
 
-      <button className="w-full border border-gray-800 font-bold cursor-pointer bg-[#aa42f0] text-white py-1 rounded hover:bg-[#5C2D91] hover:text-white transition">
+      <button className="w-full border border-gray-800 font-bold cursor-pointer bg-[#9a2de2] text-white py-1 rounded hover:bg-[#5C2D91] hover:text-white transition">
         Browse by Cinemas
       </button>
 
