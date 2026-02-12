@@ -1,8 +1,12 @@
 import React from 'react'
 import mainLogo from '../../assets/cinefy_white.png';
 import {FaSearch} from 'react-icons/fa';
+import useLocation from '../../context/useLocation';
+import map from '../../assets/pin.gif'
 
 const Header = () => {
+
+    const {location , loading , error} = useLocation();
   return (
     <div className='w-full text-sm bg-black'>
         {/* Top Navbar*/ }
@@ -21,8 +25,9 @@ const Header = () => {
                 </div>
                 {/* Right Navbar*/ }
                 <div className='flex items-center space-x-6'>
-                    <div className='text-sm font-medium text-gray-400 cursor-pointer'>
-                        Delhi &nbsp;
+                    <div className='text-sm font-medium text-gray-200 cursor-pointer'>
+                        {location && <img src={map} alt='loading...' className='w-10 h-10'/>}
+                        {location && <p>{location} &nbsp; ▼ </p>}
                     </div>
                     <button className='bg-[#5C2D91] cursor-pointer text-amber-50 font-bold px-4 py-1.5 rounded text-sm'>
                         Sign in
