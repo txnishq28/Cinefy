@@ -4,6 +4,7 @@ import Footer from "./components/shared/Footer"
 import Home from "./pages/Home"
 import Movies from "./pages/Movies"
 import MovieDetails from "./pages/MovieDetails"
+import Profile from "./pages/Profile"
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/profile/:id" element={<h1>Profile Page</h1>}/>
+          <Route path="/profile/:id" element={<Profile/>}/>
           <Route path="/movies" element={<Movies/>}/>
           <Route path="/movies/:movieId" element={<MovieDetails/>}/>
         </Routes>

@@ -9,7 +9,7 @@ const Movies = () => {
     <div>
       <BannerSlider />
 
-      <div className="flex flex-col md:flex-row bg-gray-900 min-h-screen md:px-[100px] pb-10 pt-8">
+      <div className="flex flex-col md:flex-row bg-[#0b0714] min-h-screen md:px-[100px] pb-10 pt-8">
         <MovieFilters languages={languages} />
         <MovieList/>
       </div>

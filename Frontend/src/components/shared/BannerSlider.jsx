@@ -17,7 +17,7 @@ const BannerSlider = () => {
 };
 
   return (
-    <div className='w-full bg-gray-900 py-6'>   
+    <div className='w-full bg-[#0b0714] py-6'>   
         <div className='mx-auto px-4'>
             <Slider {...settings}>
                 {
