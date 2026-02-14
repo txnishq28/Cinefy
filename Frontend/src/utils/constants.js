@@ -256,64 +256,75 @@ export const events = [
 
 export const theatres = [
   {
-    name: "INOX Quest Mall, Ballygunge, Kolkata",
-    distance: "2.0 km",
+    name: "INOX Logix City Centre, Noida",
+    distance: "2.1 km",
     cancellation: "Allows cancellation",
     img: inox,
     timings: [
-      { time: "10:15 AM", label: "RECLINERS" },
-      { time: "2:00 PM", label: "RECLINERS" },
-      { time: "6:45 PM", label: "RECLINERS", highlight: true },
-      { time: "11:35 PM", label: "RECLINERS" },
-      { time: "7:45 PM", label: "RECLINERS" },
-      { time: "12:35 PM", label: "RECLINERS" }
+      { time: "10:30 AM", label: "LASER" },
+      { time: "2:15 PM", label: "LASER" },
+      { time: "6:45 PM", label: "LASER", highlight: true },
+      { time: "10:50 PM", label: "LASER" },
     ],
   },
   {
-    name: "INOX Forum Mall, Elgin Road, Kolkata",
-    distance: "3.3 km",
+    name: "INOX Gardens Galleria Mall, Noida",
+    distance: "3.4 km",
     cancellation: "Allows cancellation",
     img: inox,
     timings: [
-      { time: "1:15 PM", label: "RECLINERS" },
-      { time: "4:30 PM", label: "RECLINERS" },
+      { time: "11:00 AM", label: "RECLINERS" },
+      { time: "3:00 PM", label: "RECLINERS" },
+      { time: "7:30 PM", label: "RECLINERS", highlight: true },
     ],
   },
   {
-    name: "PVR Manisquare, Manisqare Mall, Kolkata",
-    distance: "1.5 km",
+    name: "INOX Spectrum Metro Mall, Noida",
+    distance: "5.2 km",
+    cancellation: "Allows cancellation",
+    img: inox,
+    timings: [
+      { time: "12:00 PM", label: "IMAX" },
+      { time: "4:30 PM", label: "IMAX", highlight: true },
+      { time: "9:15 PM", label: "IMAX" },
+    ],
+  },
+  {
+    name: "PVR DLF Mall of India, Noida",
+    distance: "1.8 km",
     cancellation: "Non-cancellable",
     img: pvr,
     timings: [
-      { time: "10:30 AM", label: "PVR PXL" },
-      { time: "1:45 PM", label: "PVR PXL" },
-      { time: "5:15 PM", label: "PVR PXL" },
-      { time: "11:25 PM", label: "PVR PXL", highlight: true },
+      { time: "10:15 AM", label: "PVR PXL" },
+      { time: "1:30 PM", label: "PVR PXL" },
+      { time: "5:45 PM", label: "PVR PXL", highlight: true },
+      { time: "11:10 PM", label: "PVR PXL" },
     ],
   },
   {
-    name: "INOX South City Mall, South City Mall, Kolkata",
-    distance: "3.5 km",
-    cancellation: "Allows cancellation",
-    img: inox,
-    timings: [
-      { time: "12:00 PM", label: "LASER" },
-      { time: "3:30 PM", label: "LASER" },
-      { time: "6:50 PM", label: "LASER", highlight: true },
-      { time: "11:25 PM", label: "LASER" },
-    ],
-  },
-  {
-    name: "Cinepolis Acropolis Mall, Rajdanga Road, Kolkata",
-    distance: "1.8 km",
+    name: "PVR Logix City Centre, Noida",
+    distance: "2.5 km",
     cancellation: "Non-cancellable",
-    img: cinepolis, // Make sure you have: `import cinepolis from "../assets/cinepolis.png"`
+    img: pvr,
     timings: [
-      { time: "08:10 PM", label: "DOLBY 7.1" },
-      { time: "11:30 PM", label: "DOLBY 7.1" },
+      { time: "9:45 AM", label: "4DX" },
+      { time: "3:15 PM", label: "4DX", highlight: true },
+      { time: "8:40 PM", label: "4DX" },
+    ],
+  },
+  {
+    name: "Cinepolis Gardens Galleria, Noida",
+    distance: "3.0 km",
+    cancellation: "Allows cancellation",
+    img: cinepolis,
+    timings: [
+      { time: "12:20 PM", label: "Dolby Atmos" },
+      { time: "4:50 PM", label: "Dolby Atmos", highlight: true },
+      { time: "9:30 PM", label: "Dolby Atmos" },
     ],
   },
 ];
+
 
 export const ordersData = [
   {
