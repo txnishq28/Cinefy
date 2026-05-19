@@ -37,24 +37,23 @@ export const languages = [
 export const banners = [banner1, banner2, banner3, banner4];
 
 export const movies = [
-  {
-    id: 1,
-    title: "Maa",
-    genre: "Fantasy/Horror/Mythological/Thriller",
-    rating: 7.2,
-    votes: "2.7K",
-    img: m1,
-    promoted: true,
-  },
-  {
-    id: 2,
-    title: "Kannappa",
-    genre: "Action/Drama/Fantasy/Period",
-    rating: 7.3,
-    votes: "10.7K",
-    img: m2,
-    promoted: true,
-  },
+  // {
+  //   id: 1,
+  //   title: "Maa",
+  //   genre: "Fantasy/Horror/Mythological/Thriller",
+  //   rating: 7.2,
+  //   votes: "2.7K",
+  //   img: m1,
+  // },
+  // {
+  //   id: 2,
+  //   title: "Kannappa",
+  //   genre: "Action/Drama/Fantasy/Period",
+  //   rating: 7.3,
+  //   votes: "10.7K",
+  //   img: m2,
+    
+  // },
   {
     id: 3,
     title: "Mission: Impossible - The Final Reckoning",
@@ -79,14 +78,15 @@ export const movies = [
     votes: "15.2K",
     img: m5,
   },
-  //  {
-  //     "id": 6,
-  //     "title": "M3GAN 2.0",
-  //     "genre": "Horror/Sci-Fi/Thriller",
-  //     "rating": 8.4,
-  //     "votes": "117",
-  //     "img": m6
-  //   },
+  {
+      id: 6,
+      title: "M3GAN 2.0",
+      genre: "Horror/Sci-Fi/Thriller",
+      rating: 8.4,
+      votes: "117",
+      img: m6,
+      promoted: true,
+     },
   //   {
   //     "id": 7,
   //     "title": "Housefull 5",
@@ -103,14 +103,15 @@ export const movies = [
   //     "votes": "39.6K",
   //     "img": m8
   //   },
-  //   {
-  //     "id": 9,
-  //     "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
-  //     "genre": "Action/Adventure/Animation/Comedy",
-  //     "rating": 9.6,
-  //     "votes": "51",
-  //     "img": m9
-  //   },
+     {
+       id: 9,
+       title: "Naruto the Movie: Ninja Clash in the Land of Snow",
+       genre: "Action/Adventure/Animation/Comedy",
+       rating: 9.6,
+       votes: "51",
+       img: m9,
+       promoted: true,
+    },
   //   {
   //     "id": 10,
   //     "title": "28 Years Later",

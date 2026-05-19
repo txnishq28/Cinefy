@@ -6,6 +6,7 @@ import Movies from "./pages/Movies"
 import MovieDetails from "./pages/MovieDetails"
 import Profile from "./pages/Profile"
 
+
 function App() {
 
   return (
